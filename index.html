@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> Responsive portfolio website</title>
+        <!--link to css-->
+        <link rel="stylesheet" href="style.css">
+        <!--box icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <body>
+        <!--Header-->
+        <header>
+            <a href="#" class="logo"> Uyen Uyen</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <li> <a href="#home"> Home</a></li>
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+               
+            </ul>
+        </header>
+        <!--Home-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <span>Hello,</span>
+                <h1>I am Uyen Uyen</h1>
+                <h2> Frontend_developer</h2>
+                <p> Chào mừng đến với blog cá nhân của sinh viên y nhưng thích học IT </p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="home-img">
+                <img src="img/logo.png" alt="">
+            </div>
+        </section>
+        <!--About-->
+        <section class="about" id="about">
+            <div class="about-title">
+            <h1><span>About </span> Me</h1>
+            <h2>Introduction</h2>
+            <div class="about-img">
+                <img src="img/about.jpg" alt="">
+            </div>
+            </div>
+        <div class="about-text">
+            <p><i class='bx bxl-figma'></i>
+            <p>Heloo, This is a web created by me. I'm a medical student and I'm learning to Frontend-dev </p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-dribbble'></i></a>
+                <a href="#"><i class='bx bxl-behance'></i></a>
+            </div>
+        </div>
+        </section>
+        <!-- services -->
+        <section class="services" id="services" >
+            <div class="heading">
+                <h1>Our <span> Services </span></h1>
+            </div>
+            <div class="services-container">
+                <!--box 1-->
+                <div class="box">
+                    <i class='bx bxl-figma'></i>
+                    <h2>Figma Designs</h2>
+                    <p> Một vài cái thiết kế (UX/UI) </p>
+                </div>
+                <!--box 2-->
+                <div class="box">
+                    <i class='bx bx-movie'></i>
+                    <h2>Video VFT </h2>
+                    <p>Các video trong quá trình code của tui</p>
+                </div>
+                <!--box 3-->
+                <div class="box">
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Designs</h2>
+                    <p>Các trang web đã được code xong bởi me</p>
+                </div>
+                <!--box 4-->
+                <div class="box">
+                    <i class='bx bx-line-chart'></i>
+                    <h2>SEO</h2>
+                    <p>Ở đây khum có gì, ngoài mxh của tui  </p>
+                </div>
+                <!--box 5-->
+                <div class="box">
+                    <i class='bx bx-edit-alt'></i>
+                    <h2>Figma Designs</h2>
+                    <p>Các thiết kế xàm xí </p>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <sectione class="portfolio" id="portfolio">
+            <div class="heading">
+                <h1><span>Portfolio</span></h1>
+            </div>
+            <div class="portfolio-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/5689383.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                        <h3>WORK 1</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/5689391.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                        <h3>WORK 2</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/5689424.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                        <h3>WORK 3</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h1><span>Contact</span> Us</h1>
+            </div>
+            <div class="contac-form">
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" name="" id="" placeholder="Enter Your Email" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                    <input type="submit" value="Send" class="send-btn">
+                </form>
+            </div>
+        </section>
+        <!--Copyright-->
+        <div class="copyright">
+            <p> &#162; NGUYEN MAI UYEN UYEN gái đẹp siu cấp vô địch </p>
+        </div>
+        <!--scroll reveall-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--custom Js File-->
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
+
